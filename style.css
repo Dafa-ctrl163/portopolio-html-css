@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+body {
+    background-color: rgb(43, 45, 66);
+    padding: 0;
+    margin: 0;
+    font-family: Karla;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #282a36;
+    padding: 10px 15px;
+    gap: 15px;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+
+
+.navbar h2 {
+    color: rgb(204, 206, 208);
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.nav-links .active li {
+    border-bottom: 2px solid white;
+}
+
+
+
+/* home */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.poto-home {
+    position: relative;
+}
+
+.poto {
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    left: 100px;
+}
+
+.hello {
+    display: flex;
+    color: rgb(204, 206, 208);
+    right: 250px;
+    position: relative;
+    top: 120px;
+    font-size: 25px;
+}
+
+.world {
+    display: flex;
+    color: rgb(204, 206, 208);
+    right: 380px;
+    position: relative;
+    top: 160px;
+    font-size: 50px;
+}
+
+
+/* About Section */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+.about-card {
+    display: flex;
+    background-color: #2a2d3e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    align-items: center;
+    top: 100px;
+    position: relative;
+}
+.bingkai-about {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.TTD {
+    font-weight: bold;
+}
+
+.ket-about {
+    color: rgb(204, 206, 208);
+}
+
+/* Skill */
+
+.my-skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(42, 45, 62);
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    left: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+label {
+    color: rgb(204, 206, 208);
+    font-size: 30px;
+}
+
+/* button */
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+
+  .button .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+
+  .button:hover {
+    background-color: white;
+  }
+  
+  .button:hover .text {
+    color: #181717;
+  }
+
+#keterampilan {
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid #282a36 ;
+}
+
+/* footer */
+#footer {
+    width: 1290px;
+    background-color: rgb(141, 153, 174);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sosial-media .git {
+    display: flex;
+    position: relative;
+    left: 130px;
+    bottom: 40px;
+}
+
+.ins {
+    display: flex;
+    position: relative;
+    left: 80px;
+    bottom: -2px;
+}
